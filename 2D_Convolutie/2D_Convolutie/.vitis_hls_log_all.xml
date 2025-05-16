@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:57.875+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'applyConvolution_1' consists of the following:&#xD;&#xA;&#x9;'mul' operation 64 bit ('empty_28', 2D_Convolutie/source/2D_Convolutie.c:70) [58]  (6.918 ns)&#xD;&#xA;&#xD;&#xA;Resolution: For help on HLS 200-1016 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&amp;url=ug1448-hls-guidance&amp;resourceid=200-1016.html" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:56.084+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (6.918 ns) exceeds the target (target clock period: 8.000 ns, clock uncertainty: 2.160 ns, effective delay budget: 5.840 ns).&#xD;&#xA;Resolution: For help on HLS 200-871 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&amp;url=ug1448-hls-guidance&amp;resourceid=200-871.html" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:56.071+0200" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for loop 'VITIS_LOOP_59_1': contains subloop(s) that are not unrolled or flattened." projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:56.058+0200" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'applyConvolution.1' to 'applyConvolution_1'." projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:55.739+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-187] Cannot unroll loop 'VITIS_LOOP_80_6' (2D_Convolutie/source/2D_Convolutie.c:80:21) in function 'applyConvolution.1' as it has a variable trip count (2D_Convolutie/source/2D_Convolutie.c:80:21)" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:55.118+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-187] Cannot unroll loop 'VITIS_LOOP_72_5' (2D_Convolutie/source/2D_Convolutie.c:72:19) in function 'applyConvolution.1' as it has a variable trip count (2D_Convolutie/source/2D_Convolutie.c:72:19)" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:55.105+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-187] Cannot unroll loop 'VITIS_LOOP_63_2' (2D_Convolutie/source/2D_Convolutie.c:63:19) in function 'applyConvolution.1' as it has a variable trip count (2D_Convolutie/source/2D_Convolutie.c:63:19)" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:55.087+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'output' for cosimulation. (2D_Convolutie/source/2D_Convolutie.c:22:0)" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:54.915+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'image' for cosimulation. (2D_Convolutie/source/2D_Convolutie.c:22:0)" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:54.902+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5589] '#pragma HLS unroll' can only be applied inside loop body (2D_Convolutie/source/2D_Convolutie.c:71:9)" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:46.924+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -location' command is deprecated and will be removed in a future release." projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:45.404+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -name' command is deprecated and will be removed in a future release." projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:45.391+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Vitis/Vitis_HLS/2D_Convolutie/2D_Convolutie/solution1/csynth.tcl'" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T09:06:44.521+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -location' command is deprecated and will be removed in a future release." projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T10:22:00.308+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -name' command is deprecated and will be removed in a future release." projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T10:22:00.294+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Vitis/Vitis_HLS/2D_Convolutie/2D_Convolutie/solution1/csim.tcl'" projectName="2D_Convolutie" solutionName="solution1" date="2025-05-16T10:21:58.987+0200" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

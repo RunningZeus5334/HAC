@@ -1,0 +1,39 @@
+# Vitis HLS Classic .gitignore
+
+# Ignore generated solution directories
+/solution*/syn/
+/solution*/sim/
+/solution*/.run/
+/solution*/.ipcache/
+/solution*/.Xil/
+/solution*/.autopilot/
+/solution*/.crashreports/
+/solution*/.log
+/solution*/vhdl/
+/solution*/verilog/
+/solution*/csim/
+/solution*/.Xil/
+/solution*/.hw/
+
+# Common temporary and backup files
+*.log
+*.jou
+*.str
+*.wdb
+*.bak
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore Vivado or SDK folders if included by mistake
+/.Xil/
+/vivado/
+/.sdk/
+/.workspace/
+
+# Optional: ignore export directories
+/export/
+/*.xpr
+/*.xsd

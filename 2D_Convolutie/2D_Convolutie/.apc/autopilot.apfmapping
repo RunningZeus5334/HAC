@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="2D_Convolutie.c" path="C:\Vitis\Vitis_HLS\2D_Convolutie\2D_Convolutie\source\2D_Convolutie.c"/>
+    <originFiles name="2D_Convolutie.h" path="C:\Vitis\Vitis_HLS\2D_Convolutie\2D_Convolutie\source\2D_Convolutie.h"/>
+  </source>
+  <testbench>
+    <originFiles name="2D_Convolutie_tb.c" path="C:\Vitis\Vitis_HLS\2D_Convolutie\2D_Convolutie\source\2D_Convolutie_tb.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

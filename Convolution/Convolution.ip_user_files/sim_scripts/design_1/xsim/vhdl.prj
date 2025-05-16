@@ -1,0 +1,17 @@
+vhdl xil_defaultlib  \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_applyConvolution_1.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_control_s_axi.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_fadd_32ns_32ns_32_8_full_dsp_1.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_fmul_32ns_32ns_32_4_max_dsp_1.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_gmem_m_axi.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_mul_63ns_32s_64_5_1.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_mul_63s_32s_64_5_1.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_sitofp_32ns_32_7_no_dsp_1.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution_sparsemux_7_2_32_1_1.vhd" \
+"../../../../Convolution.gen/sources_1/bd/design_1/ipshared/6134/hdl/vhdl/Convolution.vhd" \
+"../../../bd/design_1/ip/design_1_Convolution_0_1/sim/design_1_Convolution_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_50M_1/sim/design_1_rst_ps7_0_50M_1.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+# Do not sort compile order
+nosort
