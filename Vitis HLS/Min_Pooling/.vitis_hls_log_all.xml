@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:01.936+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-1016] The critical path in module 'min_pooling' consists of the following:&#xD;&#xA;&#x9;'mul' operation 64 bit ('empty_25', Min_Pooling/source/Minpooling.c:24) [87]  (6.978 ns)&#xD;&#xA;&#xD;&#xA;Resolution: For help on HLS 200-1016 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&amp;url=ug1448-hls-guidance&amp;resourceid=200-1016.html" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:01.678+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-871] Estimated clock period (6.978 ns) exceeds the target (target clock period: 8.000 ns, clock uncertainty: 2.160 ns, effective delay budget: 5.840 ns).&#xD;&#xA;Resolution: For help on HLS 200-871 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&amp;url=ug1448-hls-guidance&amp;resourceid=200-871.html" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:01.658+0200" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for loop 'VITIS_LOOP_22_1': contains subloop(s) that are not unrolled or flattened." projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:01.639+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-187] Cannot unroll loop 'VITIS_LOOP_25_3' (Min_Pooling/source/Minpooling.c:25:30) in function 'min_pooling' as it has a variable trip count (Min_Pooling/source/Minpooling.c:25:30)" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:00.939+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-187] Cannot unroll loop 'VITIS_LOOP_24_2' (Min_Pooling/source/Minpooling.c:24:19) in function 'min_pooling' as it has a variable trip count (Min_Pooling/source/Minpooling.c:24:19)" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:00.915+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'output' for cosimulation. (Min_Pooling/source/Minpooling.c:6:0)" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:00.836+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'image' for cosimulation. (Min_Pooling/source/Minpooling.c:6:0)" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:00.818+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Vitis/Vitis_HLS/Min_Pooling/Min_Pooling/solution1/csynth.tcl'" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T16:59:50.394+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Vitis/Vitis_HLS/Min_Pooling/Min_Pooling/solution1/export.tcl'" projectName="Min_Pooling" solutionName="solution1" date="2025-05-18T17:00:52.474+0200" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

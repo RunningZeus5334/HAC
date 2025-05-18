@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Maxpooling.c" path="C:\Vitis\Vitis_HLS\Max_Pooling\Max_Pooling\source\Maxpooling.c"/>
+    <originFiles name="Maxpooling.h" path="C:\Vitis\Vitis_HLS\Max_Pooling\Max_Pooling\source\Maxpooling.h"/>
+  </source>
+  <testbench>
+    <originFiles name="Maxpooling_tb.c" path="C:\Vitis\Vitis_HLS\Max_Pooling\Max_Pooling\source\Maxpooling_tb.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

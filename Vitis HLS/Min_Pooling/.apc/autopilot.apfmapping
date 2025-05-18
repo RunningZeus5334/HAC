@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Minpooling.c" path="C:\Vitis\Vitis_HLS\Min_Pooling\Min_Pooling\source\Minpooling.c"/>
+    <originFiles name="Minpooling.h" path="C:\Vitis\Vitis_HLS\Min_Pooling\Min_Pooling\source\Minpooling.h"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>
